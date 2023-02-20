@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("images_used/f6f57aa2-abstract-yellow-background.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 700px;
+  margin-left: auto;
+}
+
+span {
+  display: block;
+  margin: 5px 25px;
+  color: red;
+}
+
+form {
+  position: relative;
+}
+
+form h1 {
+  font-size: 45px;
+  position: relative;
+  text-align: center;
+}
+
+form h1::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 2px;
+  width: 465px;
+  bottom: 5px;
+  left: 120px;
+}
+
+ul {
+  padding-inline-start: 180px;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+textarea {
+  display: block;
+  text-align: center;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+input {
+  font-size: 18px;
+}
+
+input::placeholder {
+  font-size: 18px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  background: no-repeat;
+  border-radius: 5px;
+  position: absolute;
+  display: inline-block;
+  transform: translateX(-50%);
+  left: 50%;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
